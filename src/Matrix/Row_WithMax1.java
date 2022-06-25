@@ -1,6 +1,18 @@
 package Matrix;
 
 //question - https://practice.geeksforgeeks.org/problems/row-with-max-1s0023/1#
+/*
+*
+*
+*  It's about the move, how you move in the array, Since array is sorted
+*   we can start moving from left, once we can encounter 1 we move left
+* and once we encounter 0 we move down once we have traversed whole row. we'll get the
+* row with max zero
+*
+* TC: O(row+col.)
+* SC:0(1)
+*
+* */
 
 public class Row_WithMax1 {
     static int rowWithMax1s(int arr[][], int n, int m) {
